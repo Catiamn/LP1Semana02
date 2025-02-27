@@ -16,7 +16,7 @@ namespace Cilindro
             double real_raio = double.Parse(raio);
 
             double volume = MathF.PI*real_raio*real_raio*real_altura;
-            Console.WriteLine($"{volume}");
+            Console.WriteLine($"{volume:f3}");
 
         }
     }
