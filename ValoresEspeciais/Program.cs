@@ -41,11 +41,18 @@ namespace ValoresEspeciais
 
             //Exercicio 7
             //overflow
-            double a = 2*double.MaxValue;
-            double b = double.MaxValue + 1;
+            uint overflow_uint = uint.MaxValue;
+            uint overflow_uintfinish = overflow_uint+1;
+            Console.WriteLine(overflow_uintfinish);
+
+            float a = 2*float.MaxValue;
+            float b = float.MaxValue + 1;
             Console.WriteLine($"{a}\n{b}");
-
-
+            
+            //underflow
+            float underflow1, underflow2;
+            underflow1 = underflow2 = 10000.0f;
+            Console.WriteLine(underflow1 == underflow2 + 0.0001f);
         }
     }
 }
