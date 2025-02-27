@@ -29,6 +29,15 @@ namespace ValoresEspeciais
 
             uint uiMax = uint.MaxValue;
             uint uiMin = uint.MinValue;
+            Console.WriteLine($"{sbMax}\n{sbMin}\n{bMax}\n{bMin}\n{dbMax}\n{dbMin}\n{fMax}\n{fMin}\n{ulMax}\n{ulMin}\n{lMax}\n{lMin}\n{iMax}\n{iMin}\n{uiMax}\n{uiMin}");
+            double x = double.PositiveInfinity ;
+            double y = double.NegativeInfinity ;
+            float x2 = float.PositiveInfinity;
+            float y2 = float.NegativeInfinity;
+            double xx = double.PositiveInfinity / double.PositiveInfinity ; //NaN!
+            float yy = float.NaN; //Direto
+            Console.WriteLine($"{x}\n{y}\n{x2}\n{y2}\n{xx}\n{yy}")
+
         }
     }
 }
