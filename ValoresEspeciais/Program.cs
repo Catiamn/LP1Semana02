@@ -41,8 +41,9 @@ namespace ValoresEspeciais
 
             //Exercicio 7
             //overflow
-            double a = 2∗double.MaxValue;
+            double a = 2*double.MaxValue;
             double b = double.MaxValue + 1;
+            Console.WriteLine($"{a}\n{b}");
 
 
         }
