@@ -14,7 +14,7 @@ namespace ChatGPTOne
             // resposta adequada
             switch (question)
             {
-                case "Who Coded you?":
+                if "Who Coded you?":
                     response = "Catiamn";
                     break;
                 case "Where are you?":
@@ -29,6 +29,8 @@ namespace ChatGPTOne
                 default:
                     response = "My programmer hasn't coded and answer for that yet";
                     break;
+                case "EXIT":
+                    break
             }
 
             // Responder adequadamente
