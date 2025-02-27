@@ -17,7 +17,8 @@ namespace Cilindro
 
             double volume = MathF.PI*real_raio*real_raio*real_altura;
             Console.WriteLine($"{volume:f3}");
-
+            double area = 2*MathF.PI*real_raio*(real_raio+real_altura)
+            Console.WriteLine($"{area:f3}");
         }
     }
 }
