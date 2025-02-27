@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Cilindro
 {
@@ -6,7 +7,17 @@ namespace Cilindro
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Qual é a altura do cilindro?");
+            string altura = Console.ReadLine();
+            Console.WriteLine("Qual é o raio do cilindro?");
+            string raio = Console.ReadLine();
+
+            double real_altura = double.Parse(altura);
+            double real_raio = double.Parse(raio);
+
+            double volume = (MathF.PI*({real_altura}^2)*real_raio)
+            Console.ReadLine($"{volume}")
+
         }
     }
 }
