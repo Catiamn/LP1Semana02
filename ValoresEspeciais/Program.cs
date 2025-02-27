@@ -36,7 +36,7 @@ namespace ValoresEspeciais
             float y2 = float.NegativeInfinity;
             double xx = double.PositiveInfinity / double.PositiveInfinity ; //NaN!
             float yy = float.NaN; //Direto
-            Console.WriteLine($"{x}\n{y}\n{x2}\n{y2}\n{xx}\n{yy}")
+            Console.WriteLine($"{x}\n{y}\n{x2}\n{y2}\n{xx}\n{yy}");
 
         }
     }
