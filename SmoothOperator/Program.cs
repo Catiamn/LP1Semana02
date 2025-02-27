@@ -8,9 +8,11 @@ namespace SmoothOperator
         {
             Console.WriteLine("Please write an int number:");
             string number = Console.ReadLine();
-            float savednumber = Parse(number)
-            number = number ++
-            
+            sbyte saved_number = sbyte.Parse(number);
+            saved_number = saved_number ++;
+            Console.ReadLine ($"{saved_number}");
+            saved_number = saved_number --;
+            Console.ReadLine ($"{saved_number}");
         }
     }
 }
