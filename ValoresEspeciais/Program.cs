@@ -6,6 +6,7 @@ namespace ValoresEspeciais
     {
         private static void Main(string[] args)
         {
+            //Exercicio 6
             sbyte sbMax = sbyte.MaxValue;
             sbyte sbMin = sbyte.MinValue;
 
@@ -37,6 +38,12 @@ namespace ValoresEspeciais
             double xx = double.PositiveInfinity / double.PositiveInfinity ; //NaN!
             float yy = float.NaN; //Direto
             Console.WriteLine($"{x}\n{y}\n{x2}\n{y2}\n{xx}\n{yy}");
+
+            //Exercicio 7
+            //overflow
+            double a = 2∗double.MaxValue;
+            double b = double.MaxValue + 1;
+
 
         }
     }
