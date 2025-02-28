@@ -15,9 +15,24 @@ namespace PerfectCountdown
                 Console.WriteLine("Step number:");
                 int step = int.Parse(Console.ReadLine());
 
+                //If the step number is bigger than the start, tell the user:
                 if (step > start)
                 {
+                    Console.WriteLine("Start must be higher than step. Try again.");
+                }
+                //If dividing start by step doesnt equal 0, tell the user:
+                if ( start % step != 0)
+                {
+                    Console.WriteLine("Start not divisible by step. Try again.");
+                }
+                //If either the start or step are negative numbers or zero, tell the user:
+                if (start<= 1||step<= 1)
+                {
                     Console.WriteLine("Out-of-range start or step. Try again.");
+                }
+                if ( start % step == 0)
+                {
+                    Console.WriteLine({start})
                 }
             }
         }
