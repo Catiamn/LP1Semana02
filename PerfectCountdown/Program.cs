@@ -9,10 +9,10 @@ namespace PerfectCountdown
             while (true)
             {
                 //Ask user for a Starting number for the countdown
-                Console.WriteLine("Start number:");
+                Console.Write("Start number:");
                 int start = int.Parse(Console.ReadLine());
                 //Ask user for a step number for countdown
-                Console.WriteLine("Step number:");
+                Console.Write("Step number:");
                 int step = int.Parse(Console.ReadLine());
 
                 //If either the start or step are negative numbers or zero, tell the user:
