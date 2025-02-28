@@ -20,7 +20,7 @@ namespace PerfectCountdown
                 {
                     Console.WriteLine("Start must be higher than step. Try again.");
                 }
-                //If dividing start by step doesnt equal 0, tell the user:
+                //If dividing start by step doesn't equal 0, tell the user:
                 if ( start % step != 0)
                 {
                     Console.WriteLine("Start not divisible by step. Try again.");
@@ -32,7 +32,7 @@ namespace PerfectCountdown
                 }
                 if ( start % step == 0)
                 {
-                    Console.WriteLine({start})
+                    Console.WriteLine(start);
                 }
             }
         }
