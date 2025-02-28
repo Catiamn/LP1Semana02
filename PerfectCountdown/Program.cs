@@ -28,14 +28,14 @@ namespace PerfectCountdown
                     Console.WriteLine("Start must be higher than step. Try again.");
                     continue;
                 }
-                
+
                 //If dividing start by step doesn't equal 0, tell the user:
                 if ( start % step != 0)
                 {
                     Console.WriteLine("Start not divisible by step. Try again.");
                     continue;
                 }
-                
+                //Else divide the start number by subtracting the step number till it reaches 0
                 else
                 {
                     while (start >= 0)
@@ -43,6 +43,7 @@ namespace PerfectCountdown
                     Console.WriteLine(start);
                     start -= step;
                     }
+                    break;
                 }
             }
         }
