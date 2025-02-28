@@ -19,23 +19,26 @@ namespace PerfectCountdown
                 if (step > start)
                 {
                     Console.WriteLine("Start must be higher than step. Try again.");
+                    continue;
                 }
                 //If dividing start by step doesn't equal 0, tell the user:
                 if ( start % step != 0)
                 {
                     Console.WriteLine("Start not divisible by step. Try again.");
+                    continue;
                 }
                 //If either the start or step are negative numbers or zero, tell the user:
                 if (start<= 1||step<= 1)
                 {
                     Console.WriteLine("Out-of-range start or step. Try again.");
+                    continue;
                 }
                 else
                 {
-                    while (start != 0)
+                    while (start >= 0)
                     {
                     Console.WriteLine(start);
-                    start =- step;
+                    start -= step;
                     }
                 }
             }
