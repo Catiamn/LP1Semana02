@@ -32,7 +32,7 @@ namespace PerfectCountdown
                 }
                 else
                 {
-                    while (start > 0)
+                    while (start != 0)
                     {
                     Console.WriteLine(start);
                     start =- step;
