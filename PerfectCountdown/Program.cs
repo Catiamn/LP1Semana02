@@ -30,9 +30,13 @@ namespace PerfectCountdown
                 {
                     Console.WriteLine("Out-of-range start or step. Try again.");
                 }
-                if ( start % step == 0)
+                else
                 {
+                    while (start > 0)
+                    {
                     Console.WriteLine(start);
+                    start =- step;
+                    }
                 }
             }
         }
